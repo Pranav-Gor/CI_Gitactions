@@ -15,4 +15,4 @@ def test_multiply():
 
 def test_divide():
     assert divide(10, 2) == 5
-    assert divide(10,1) == 10
+    assert divide(10,0) == 10
